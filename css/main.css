@@ -1,0 +1,46 @@
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+}
+
+.header__title {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section {
+}
+
+.section__link {
+    padding: 20px 40px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.section__link:not(:last-child) {
+    margin-right: 20px;
+}
+
+.section__link:hover {
+    opacity: 0.7;
+}
+
+.section__link:active {
+    opacity: 0.5;
+}
