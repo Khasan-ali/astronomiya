@@ -153,12 +153,17 @@ body {
 
     /* TEST */
     .inner-text {
-        max-width: 350px;
+        max-width: 300px;
         width: 100%;
     }
 
     .itemss {
-        max-width: 400px;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .videos-name {
+        max-width: 350px;
         width: 100%;
     }
 }
