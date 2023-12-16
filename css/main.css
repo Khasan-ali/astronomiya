@@ -71,6 +71,20 @@ body {
 }
 
 /* NAZARIY */
+.main_nazar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.heading__title {
+    display: block;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+
 .text {
     margin: 0;
     color: #fff;
@@ -148,7 +162,7 @@ body {
     }
 
     .img-name {
-        max-width: 400px;
+        max-width: 350px;
         width: 100%;
     }
 
